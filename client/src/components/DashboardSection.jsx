@@ -9,9 +9,9 @@ export default function DashboardSection({ scrollYProgress }) {
   const pointerEvents = useTransform(scrollYProgress, v => v > 0.62 && v < 0.81 ? "auto" : "none");
 
   const bookings = [
-    { id: 1, title: 'PC Arena - Pro Setup', date: 'Oct 24, 2026', time: '02:00 PM', status: 'Upcoming', active: true },
-    { id: 2, title: 'VR Experience', date: 'Oct 15, 2026', time: '06:00 PM', status: 'Completed', active: false },
-    { id: 3, title: 'PS5 Lounge', date: 'Oct 10, 2026', time: '08:00 PM', status: 'Completed', active: false }
+    { id: 1, title: 'PS5 Console - Pro Session', date: 'Nov 24, 2026', time: '02:00 PM', status: 'Upcoming', active: true },
+    { id: 2, title: 'PS5 Console - Standard', date: 'Nov 15, 2026', time: '06:00 PM', status: 'Completed', active: false },
+    { id: 3, title: 'PS5 Console - Group (4)', date: 'Nov 10, 2026', time: '08:00 PM', status: 'Completed', active: false }
   ];
 
   return (
